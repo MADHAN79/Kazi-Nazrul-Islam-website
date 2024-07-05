@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+
+  #header {
+    background-color: #0f0d0d;
+    color: white;
+    padding-top: 20px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+  }
+  .front{
+    padding-top: 100px;
+    font-size: 200%;
+}
+
+  
+  #nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 290px;
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: #575757;
+  }
+  
+  #main-doc {
+    
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text-content {
+    flex: 1;
+    margin-top: 30px;;
+    margin-right: 90px;
+    margin-left: 300px;
+  }
+  
+  #image-div {
+    text-align: center;
+    flex: 1;
+  }
+  
+  #header-img {
+    max-width: 100%;
+    height: 400px;
+  }
+  
+  #buttons {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn1 {background-color: #575757;}
+  .btn2 {background-color: #e01e1e;}
+  .btn3 {background-color: #ff7300;}
+
+  .btn:hover {
+    background-color: #0425fb;
+  }
+  
+  #quote {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 70px 0;
+    font-size: 160%;
+    margin-left: none;
+    
+  }
+  
+  .awards {
+    display: flex;    
+  }
+ 
+  /*for making line before and after AWARDS ALONE WE NEED THIS MUCH LINES OF CODE !*/
+  .awardsheading {
+    display: flex;
+    flex-direction: row;
+  }
+  .awardsheading:before, .awardsheading:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    border-color:rgb(232, 232, 232);
+    margin: auto;
+  }
+  .awardsheading:before {
+    margin-right: 10px
+  }
+  .awardsheading:after {
+    margin-left: 10px
+  }
+  /*for making line before and after AWARDS ALONE WE NEED THIS MUCH LINES OF CODE !*/
+  
+  .award {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 22%;
+    min-width: 200px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: small;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    
+}
+
+/* Additional styling to ensure proper layout on smaller screens */
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 100%;
+        margin: 10px 0;
+    }
+}
+  
+  #works {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #works h2 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .works-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .works-section ul {
+    padding: 0;
+  }
+  
+  .works-section li {
+    margin-left: 90px;
+  }
+  
